@@ -3,7 +3,7 @@ import pandas as pd
 from google.cloud import storage
 
 def main(buffer, name, tipo):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\gfigu\Desktop\Projeto\Randon\Programa\dados-mercado-412719-f797ad54da6a.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"...................................................."
 
     # Especifica o nome do bucket
     bucket_name = 'mercado-chile'
