@@ -36,8 +36,7 @@ def main():
         codigo = API.iloc[idx]
         print(name)
         
-        url = f"https://si3.bcentral.cl/SieteRestWS/SieteRestWS.ashx?user=gustavo@vent.digital&pass=Vent2024&function=GetSeries&firstdate=2010-01-01&lastdate={date}&timeseries={codigo}"
-
+        url = f-----------------------------------------------------------------------
         payload = {}
         headers = {
           'Cookie': 'ASP.NET_SessionId=4exmbw34ctl4zia4p1fpymjp'
