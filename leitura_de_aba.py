@@ -232,12 +232,7 @@ def duck(dados_tratados,verf_plus,nome,tabela):
     return results,saida_year
 
 def main (nome,tabela):
-    print('============================')
-    print(tabela)
-    print('============================')
-    print("\n")
-
-
+    
     caminho_arquivo = r"C:\Users\gfigu\Desktop\Projeto\Randon\Cochilco_dowload\arquivo1.xlsx"
     tipo = 'Ministerio_de_Mineria'
     
